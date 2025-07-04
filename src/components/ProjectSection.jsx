@@ -1,7 +1,7 @@
 import { ArrowRight, ExternalLink, Github, GithubIcon } from "lucide-react";
-import Project1JPG from "../../projects/project1.jpg";
-import Project2JPG from "../../projects/project2.jpg";
-import Project3JPG from "../../projects/project3.jpg";
+import Project1JPG from "../projects/project1.jpg";
+import Project2JPG from "../projects/project2.jpg";
+import Project3JPG from "../projects/project3.jpg";
 
 const projects = [
     {
