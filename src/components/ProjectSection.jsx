@@ -1,12 +1,14 @@
 import { ArrowRight, ExternalLink, Github, GithubIcon } from "lucide-react";
-import {project1, project2, project3} from "../assets/projects"; // Assuming you have images in assets folder
+import Project1JPG from "../../projects/project1.jpg";
+import Project2JPG from "../../projects/project2.jpg";
+import Project3JPG from "../../projects/project3.jpg";
 
 const projects = [
     {
         id: 1,
         title: "X clone",
         description: "A clone of X (Twitter) made using purely Tailwindcss .",
-        image: "/projects/project1.jpg",
+        image: Project1JPG,
         tags: ["TailwindCSS"],
         demoUrl: "#",
         githubUrl: "https://github.com/ToufikIIT/WEBD/tree/main/src",
@@ -16,7 +18,7 @@ const projects = [
         title: "Banking System",
         description:
             "A banking system made in java with user authentication and payment processing.",
-        image: "/projects/project2.jpg",
+        image: Project2JPG,
         tags: ["JAVA"],
         demoUrl: "#",
         githubUrl: "https://github.com/ToufikIIT/Banking-System",
@@ -26,7 +28,7 @@ const projects = [
         title: "Music app",
         description:
             "Full-featured music playing platform with interactive interface and all functionalities",
-        image: "/projects/project3.png",
+        image: Project3JPG,
         tags: ["HTML", "CSS", "JavaScript"],
         demoUrl: "#",
         githubUrl: "https://github.com/ToufikIIT/WEBD",
