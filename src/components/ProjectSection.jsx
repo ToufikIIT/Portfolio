@@ -1,4 +1,5 @@
 import { ArrowRight, ExternalLink, Github, GithubIcon } from "lucide-react";
+import {project1, project2, project3} from "../assets/projects"; // Assuming you have images in assets folder
 
 const projects = [
     {
